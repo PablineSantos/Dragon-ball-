@@ -47,7 +47,7 @@ namespace Dragon_Ball.Controllers
             return Ok(personagem);
         }
 
-        [HttpPatch("{id}")]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdatePersonagem(int id, Personagem personagem)
         {
             var atualizado = await service.Atualizar(id, personagem);
