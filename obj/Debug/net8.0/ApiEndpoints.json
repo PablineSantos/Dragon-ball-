@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "Dragon_Ball.Controllers.PersonagemController",
+    "Method": "AddPersonagem",
+    "RelativePath": "api/Personagem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personagem",
+        "Type": "Dragon_Ball.Models.Personagem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dragon_Ball.Controllers.PersonagemController",
+    "Method": "GetPersonagens",
+    "RelativePath": "api/Personagem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dragon_Ball.Controllers.PersonagemController",
+    "Method": "GetPersonagem",
+    "RelativePath": "api/Personagem/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dragon_Ball.Controllers.PersonagemController",
+    "Method": "UpdatePersonagem",
+    "RelativePath": "api/Personagem/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "personagem",
+        "Type": "Dragon_Ball.Models.Personagem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dragon_Ball.Controllers.PersonagemController",
+    "Method": "DeletePersonagem",
+    "RelativePath": "api/Personagem/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
